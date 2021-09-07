@@ -1,0 +1,3 @@
+Grupo: 5
+Nombre: Pol David Pineda Serrano
+Rol: Implementador
