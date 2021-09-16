@@ -1,0 +1,27 @@
+-Tema: Que sitio web vamos a desarrollar?
+
+-Idea 1:Sistema Login - CON SCRUD
+
+Sistema administrativo integrado
+
+Fichas tecnicas de productos - Camisas - ETC
+
+Frontend = Angular
+
+-Idea 2:
+
+-Idea 3:
+
+SCRUD
+
+
+
+SELECT
+
+CREATE
+
+READ
+
+UPDATE
+
+DELETE

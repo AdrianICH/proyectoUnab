@@ -1,0 +1,6 @@
+Proyecto: Sistema Administrativo Integrado
+
+Descripcion:El sistema que se desarrollara será para un almacen o distribuidor de una X empresa de confecciones de ropa/uniformes.
+El sistema debe tener un menu de Login para ingresar.
+El administrador del sistema será el encargado de añadir, actualizar o borrar las fichas técnicas de los productos para las tiendas asociadas a la empresa, podrá añadir fichas para productos como uniformes, camisas, pantalones, gorros/sombreros, zapatos, etc. Cada producto deberá tener un ID o numero de referencia, un color, talla, precio, material de fabricación, si hay o no stock del producto, etcetera.
+En la aplicacion habran por lo menos 2 tipos de usuario, el administrador y el empleado, los empleados no tienen permiso de modificar la informacion de las fichas de producto, sino solo verlas.
