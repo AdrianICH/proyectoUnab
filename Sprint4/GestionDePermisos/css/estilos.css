@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#0079BA, hsl(201, 92%, 62%))
+}
+fieldset{
+    width: 10%;
+    padding: 10px solid white;
+
+}
+.cookies{
+    margin-left: 5px;
+    width: 15%;
+    height: 100px;
+    background: rgb(4, 61, 119);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.cookies p{
+    text-align: center;
+}
+.cookies .botonCookies input[type = "submit"]{
+    background-color: #25b5f7;
+    border: none;
+    text-transform: uppercase;/*Para que se convierta a mayusculas*/
+    cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
+    margin-left: 90px; 
+}
+.cookies a:hover, a:active{
+    color: #25b5f7;
+    text-decoration: none;
+}
+.cookies a:link, a:visited{
+    color: #25b5f7;
+}
+aside{
+    float: right;
+}
+h1{
+    font-size: 90px;
+}
+.saint {
+    width: 15%;
+    height: 300px;
+    padding:1px solid white;
+}
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0,0,0, .5);
+    border-radius: 10px;
+}
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #4cc9f0;
+    text-align: center;
+}
+.contenedor .elemento label{
+    color:#fff;
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.contenedor .elemento input[type = "submit"]{
+    background-color: #f72585;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;/*Para que se convierta a mayusculas*/
+    cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
+    padding: 15px; 
+}

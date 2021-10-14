@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" href = "/css/estilos.css"/>
+    <title>Inicio SAINT</title>
+  </head>
+  <body>
+    <header>
+        <div class = "cookies">
+        <p>Este sitio web utiliza cookies, puede
+            <a href = "/cookies.html" target = "_blank" > más información aquí</a>
+        </p>
+        <div class ="botonCookies">
+            <input type = "submit" value = "Rechazar" name = "rechazo cookies"> <input type = "submit" value = "Aceptar" name = "Acepta cookies">
+        </div>
+    </div>
+    </header>
+    <div>
+        <aside>
+            <fieldset class = "saint">
+                <img src = "https://acortar.link/hPB4j0"/>
+                <h2>Sistema administrativo Integrado</h2>
+            </fieldset>
+        </aside>
+    </div>
+    <div class = "contenedor">
+            <form id = "forma" name = "forma" method = "POST">
+                <div class = "elemento">
+                    <label for = "usuario">Usuario</label>
+                    <input type = "text" id = "usuario" name = "usuario" required = "true"
+                    placeholder = "saint@gmail.com">
+                </div>
+                <div class = "elemento">
+                    <label for = "password">Password</label>
+                    <input type = "password" id = "password" name = "password">
+                </div>
+                <div class = "elemento">
+                    <input type = "submit" value = "Enviar">
+                </div>
+            </form>
+    </div>
+  </body>
+</html>
