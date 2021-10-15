@@ -1,0 +1,61 @@
+<!-- <div>
+<h2><p>registrar-usuarios works! funcionalidad johann</p></h2>
+</div>
+<div><h1><span class="glyphicon glyphicon-play-circle">{{todovectorcompleto}}</span></h1></div>
+
+  {{titulo}}  
+  <div><h2>{{todovectorcompleto}}</h2></div>
+
+  <div class="container">
+
+    <button (click)="onClick1()" class="btn btn-danger">Funcion1</button>
+
+  </div>
+
+
+<div><h1><p>Funcionalidad johann</p></h1></div>
+
+<div><img src="https://microsofters.com/wp-content/uploads/2021/06/img21-1021x580.jpg" width="300" height="300"></div>
+
+<div><h1>{{todovectorcompleto}} </h1></div>
+
+<div><h1><p>Ciclo 3 Desarrollo WEB</p></h1></div>
+
+  <div><h1><p>Numero a utilizar</p></h1></div>
+    <div><h1><p id="numero_n">23668</p></h1></div>
+    <div><h1><p id="numero_d">6</p></h1></div>
+<div><button (click)="onClick1()" class="btn btn-danger"><h2>Ejercicio</h2></button></div>
+
+-->
+<app-pagina-principal></app-pagina-principal>
+
+<h1 class="register-title">formulario registro</h1>
+
+<form action="" class="register" [formGroup]="datosformulario">
+
+<div class="register-switch">
+
+<input type="radio" formControlName="sexo_usuario" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+<label for="sex_f" class="register-switch-label">Femenino</label>
+
+<input type="radio" formControlName="sexo_usuario" name="sex" value="M" id="sex_m" class="register-switch-input">
+<label for="sex_m" class="register-switch-label">Masculino</label>
+
+</div>
+
+<input type="text" formControlName="nombre_usuario" class="register-input" placeholder="Nombre" required>
+
+<input type="email" formControlName="correo_usuario" class="register-input" placeholder="Email" required>
+
+<input type="text" formControlName="user_name" class="register-input" placeholder="Username" required>
+
+<input type="password" formControlName="password" class="register-input" placeholder="Password" required>
+
+<button  (click)="altausuario()" class="register-button" >Registrar</button>
+
+</form>
+
+
+
+
+

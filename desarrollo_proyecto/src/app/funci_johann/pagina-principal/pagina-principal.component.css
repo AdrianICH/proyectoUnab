@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+    font-size: large;
+}
+
+
+button{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
