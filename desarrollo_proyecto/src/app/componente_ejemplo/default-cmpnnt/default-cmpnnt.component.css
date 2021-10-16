@@ -1,0 +1,82 @@
+html {
+  background-color: aquamarine;
+}
+
+body {
+    background-color: aquamarine;
+  margin: 1rem;
+}
+
+.autor {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  text-align: left;
+}
+
+span {
+  font-weight: 100;
+}
+
+.reg {
+  text-align: right;
+  max-width: 100%;
+  border: 5rem transparent;
+  margin: 2rem;
+}
+
+.form {
+  padding: 0.2rem;
+  padding-top: 1rem;
+  background-color: azure;
+  text-align: center;
+  margin: auto;
+  width: 21rem;
+  font-size: larger;
+}
+
+.title {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 0%;
+  width: 21rem;
+}
+
+input {
+  font-style: oblique;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0%;
+  padding: 0.5rem;
+  background-color: bisque;
+  border: 1rem;
+  border-radius: 16px;
+}
+
+.register_logo {
+  padding: 1rem;
+  background: url("http://localhost/ciclogrupo28/back_login.jfif");
+  text-align: center;
+  margin: 0%;
+}
+
+.button_submit {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 20%;
+  background-color: aqua;
+  color: white;
+}
+
+.button_submit:hover {
+  color: aqua;
+  background-color: white;
+}
+
+button{
+  font-size: large;
+  padding: 1rem;
+  margin: 1em;
+}

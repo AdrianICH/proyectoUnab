@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+  </head>
+
+  <body>
+    
+    <h2>concatenación = {{resultado}}</h2>
+    <button (click)="onClick3()" class="btn btn-danger">Ejercicio</button>
+    <h2>Funcion MAYOR-MENOR:</h2>
+    <h2>{{mayormenor}}</h2>
+    
+    <section class="reg">
+      <section class="title">
+        <div>
+          <h1 class="register_logo">{{ title }}</h1>
+        </div>
+      </section>
+
+      <section class="form">
+        <form
+          method="POST"
+          action="http://localhost/ciclogrupo28/vef_login.php"
+        >
+          <label for="">Username</label>
+          <input type="text" name="user" size="25" value="user" required="" />
+          <label for="">Password</label>
+          <input
+            type="password"
+            name="pass"
+            size="25"
+            value="password"
+            required=""
+          />
+          <label for="">Email</label>
+          <input
+            type="email"
+            name="mail"
+            size="25"
+            value="email@gmail.com"
+            required=""
+          />
+
+          <br /><input
+            class="button_submit"
+            type="submit"
+            value="Submit"
+            size="20"
+          />
+        </form>
+      </section>
+    </section>
+
+    <section align="center">
+      <button (click)="onClick1()" class="btn btn-danger">Llamar concatenación</button>
+
+      &nbsp; &nbsp;
+
+      <button (click)="onClick2()" class="btn btn-danger">Mayor-Menor</button>
+
+      &nbsp; &nbsp;
+
+    </section>
+    
+
+    
+  </body>
+</html>
