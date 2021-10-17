@@ -1,0 +1,104 @@
+img{
+    height: 150px;
+    width: 250px;
+    padding-left: 6em;
+    margin-top: 2em;
+    position:absolute;
+    color: rgb(6, 6, 61);
+}
+
+header{
+    font-family: cursive;
+    font-size: 7em;
+    color: rgb(6, 6, 61);
+    top:  5rem;
+}
+
+h1{
+    font-family: cursive;
+    color: rgb(6, 6, 61);
+}
+
+h2{
+    font-family: monospace;
+    font-size: 3em;
+    color: rgb(136, 183, 221);
+}
+
+.subtitle{
+    font-family: monospace;
+    font-size: 3em;
+    color: rgb(136, 183, 221);
+    padding: 0em 2.2em;
+}
+
+.bt1{
+    padding: 15px 25px;
+    background-color: rgb(136, 183, 221);
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 6em;
+    color: cornsilk;
+    font-family: cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.bt2{
+    padding: 15px 25px;
+    background-color: rgb(136, 183, 221);
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 10em;
+    color: cornsilk;
+    font-family: cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.bt3{
+    padding: 15px 25px;
+    background-color: rgb(136, 183, 221);
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 10em;
+    color: cornsilk;
+    font-family: cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.bt4{
+    padding: 15px 45px;
+    background-color: rgb(136, 183, 221);
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 6em;
+    color: cornsilk;
+    font-family: cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.bt5{
+    padding: 15px 47px;
+    background-color: rgb(136, 183, 221);
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 10em;
+    color: cornsilk;
+    font-family: cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.btvolver{    
+    padding: 0.2em;
+    background-color:rgb(199, 212, 212);
+    position: relative;
+    color: black;
+    border-radius: 10px;
+    margin:70em;
+    font-family: cursive;        
+    text-decoration: none;
+}

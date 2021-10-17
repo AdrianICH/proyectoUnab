@@ -1,0 +1,171 @@
+img{
+    height: 150px;
+    width: 250px;
+    padding-left: 6em;
+    margin-top: 2em;
+    position:absolute;
+    color: rgb(6, 6, 61);
+}
+
+header{
+    font-family: cursive;
+    font-size: 7em;
+    color: rgb(6, 6, 61);
+    top:  5rem;
+}
+
+h1{
+    font-family: cursive;
+    color: rgb(6, 6, 61);
+}
+
+h2{
+    font-family: monospace;
+    font-size: 3em;
+    color: rgb(136, 183, 221);
+}
+
+.subtitle{
+    font-family: monospace;
+    font-size: 3em;
+    color: rgb(136, 183, 221);
+    padding: 0em 2.2em;
+}
+
+.btvolver2{    
+    padding: 0.2em;
+    background-color:rgb(199, 212, 212);
+    position: relative;
+    color: black;
+    border-radius: 10px;
+    margin:70em;
+    top: 17.5em;   
+    font-family: cursive;        
+    text-decoration: none;
+}
+
+.input_reg1{
+    padding: 0.2em;
+    background-color:rgb(199, 212, 212);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 4em 60em;
+    font-family: cursive; 
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.input_reg{
+    padding: 0.2em;
+    background-color:rgb(199, 212, 212);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 37.1em 60em;
+    font-family: cursive; 
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.material{
+    position: absolute;
+    margin-left: 7.6em;
+    width: 10.8em;
+}
+
+.talla{
+    position: absolute;
+    margin-left: 9.7em;
+    width: 10.8em;
+}
+
+.tbl_left{
+    white-space: nowrap;
+    position:absolute;
+    margin:3em 20em;
+    font-family: cursive; color: rgb(6, 6, 61);
+    padding: 15px 25px;
+    background-color: rgb(136, 183, 221);
+    border-radius: 10px;
+}
+
+.tbl_right{
+    
+    white-space:nowrap;
+    position: relativa;
+    margin: 1.6em 50em;
+    font-family: cursive; color: rgb(6, 6, 61);
+    padding: 15px 25px;
+    background-color: rgb(136, 183, 221);    
+    border-radius: 10px;  
+}
+
+.lavar input {display:none;}
+.lavar img 
+{   margin: 0em 0.2em;
+    width: 20px;
+    height: 20px;
+    border: 3px solid transparent;
+    padding:inherit;
+}
+.lavar input:checked+img 
+{   border-color: white;
+    border-radius: 7px;	
+}
+
+.planchar input {display:none;}
+.planchar img 
+{   margin: 0em 2em;
+    width: 20px;
+    height: 20px;
+    border: 3px solid transparent;
+    padding:inherit;	
+}
+.planchar input:checked+img 
+{   border-color: white;
+    border-radius: 7px;
+}
+
+.disolvente input {display:none;}
+.disolvente img 
+{   margin: 0em 3.8em;
+    width: 20px;
+    height: 20px;
+    border: 3px solid transparent;
+    padding:inherit;	
+}
+.disolvente input:checked+img 
+{   border-color: white;
+    border-radius: 7px;
+}
+
+.escurrir input {display:none;}
+.escurrir img 
+{   margin: 0em 5.6em;
+    width: 20px;
+    height: 20px;
+    border: 3px solid transparent;
+    padding:inherit;	
+}
+.escurrir input:checked+img 
+{   border-color: white;
+    border-radius: 7px;
+}
+
+.secado input {display:none;}
+.secado img 
+{   margin: 0em 7.4em;
+    width: 20px;
+    height: 20px;
+    border: 3px solid transparent;
+    padding:inherit;	
+}
+.secado input:checked+img 
+{   border-color: white;
+    border-radius: 7px;
+}
+
+.referencia{
+    margin: -17.5em 58em;
+}
