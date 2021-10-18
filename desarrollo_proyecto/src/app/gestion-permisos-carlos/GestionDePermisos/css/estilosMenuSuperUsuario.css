@@ -1,3 +1,6 @@
+*{
+    max-width: 100%;
+}
 html{
     height: 100%;
 }
@@ -11,7 +14,7 @@ body{
 }
 .titulo h1{
     display: inline-block;
-    margin-left: 550px;
+    margin-left: 29%;
     margin-bottom: 30px;
     font-size: 55px;
     text-align: center;     
@@ -24,9 +27,9 @@ body{
     text-align: center;
 }
 .titulo img{
-    width: 250px;
-    margin-left: 50px;
-    margin-top: 50px;
+    width: 18%;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 .navegacion a:link{
@@ -36,7 +39,7 @@ body{
     background-color: rgba(123, 104, 238, .5);
     color:white;
     padding: 15px 25px;
-    margin-left: 250px;
+    margin: 10px 0 0 17%;
     text-align: center;
     text-decoration: none;
     display: inline-block; /*Para que no se encimen los elementos */

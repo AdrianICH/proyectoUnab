@@ -7,15 +7,15 @@ body{
     background: linear-gradient(#0079BA, hsl(201, 92%, 62%));
 }
 header img{
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 300px;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 18%;
 }
 header h1{
     display:inline-block;
-    margin-left: 500px;
+    margin-left: 27%;
     margin-bottom: 30px;
-    font-size: 55px;
+    font-size: 3.8vmax;
     text-align: center;     
     color: white;
 }
@@ -23,24 +23,24 @@ header hr{
     margin-bottom: 50px;
 }
 aside select{
+    margin: 0 1% 0 3.5%;
     float: right;
-    margin-right: 70px;
     width: 10%;
     height: 100px;    
     border-radius: 5px;
 }
 aside input{
-    float: right;
-    margin-right: 200px;
+    float: right;   
+    margin-right: 12%;
     border-radius: 10px;
 }
 
 .navegacion input{
-    margin-top: 30px;
+    margin-top: 2%;
     background-color: rgba(123, 104, 238, .5);
     color:white;
     padding: 15px 25px;
-    margin-left: 450px;
+    margin-left: 25%;
     text-align: center;
     text-decoration: none;
     display: inline-block; /*Para que no se encimen los elementos */
@@ -50,10 +50,11 @@ aside input{
     background-color: #6A5ACD;
 }
 .centrar{
-   margin-left:450px;
+   margin-left:25.5%;
    width: 12%;
-   height: 75px;
+   height: 7%;
    background: rgb(4, 61, 119);
    color: rgb(255, 255, 255);
    border-radius: 5px;
+   font-size:0.9vmax;
 }

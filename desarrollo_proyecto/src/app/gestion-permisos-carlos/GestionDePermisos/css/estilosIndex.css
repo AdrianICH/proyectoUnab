@@ -6,15 +6,11 @@ body{
     padding: 0;
     background: linear-gradient(#0079BA, hsl(201, 92%, 62%));
 }
-fieldset{
-    width: 10%;
-    padding: 10px solid white;
-
-}
 .cookies{
+    font-size: 0.8vmax;
     margin-left: 5px;
     width: 15%;
-    height: 100px;
+    height: 90px;
     background: rgb(4, 61, 119);
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -24,10 +20,11 @@ fieldset{
 }
 .cookies .botonCookies input[type = "submit"]{
     background-color: #25b5f7;
+    width: 39%;
     border: none;
     text-transform: uppercase;/*Para que se convierta a mayusculas*/
     cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
-    margin-left: 90px; 
+    margin-left: 6%; 
 }
 .cookies a:hover, a:active{
     color: #25b5f7;
@@ -36,20 +33,23 @@ fieldset{
 .cookies a:link, a:visited{
     color: #25b5f7;
 }
-aside{
-    float: right;
-}
 h1{
     font-size: 90px;
 }
 .saint {
-    width: 15%;
+    float:right;
     height: 300px;
+    max-width: 100%;
     padding:1px solid white;
+    margin: 0;
+}
+.saint img{
+    max-width: 100%;
 }
 .contenedor{
-    margin: 50px auto;
-    width: 400px;
+    font-size: 1vmax;
+    margin: 50px auto 0 auto;
+    max-width: 25%;
     padding: 30px;
     background: rgba(0,0,0, .5);
     border-radius: 10px;
@@ -76,6 +76,7 @@ h1{
 .contenedor .elemento input[type = "submit"]{
     background-color: #f72585;
     border: none;
+    margin: auto;
     letter-spacing: 5px;
     text-transform: uppercase;/*Para que se convierta a mayusculas*/
     cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
