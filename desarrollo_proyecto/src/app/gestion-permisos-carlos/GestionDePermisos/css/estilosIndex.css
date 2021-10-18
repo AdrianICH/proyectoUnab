@@ -1,30 +1,33 @@
 html{
-    height: 100%;
+    height: auto;
+    min-height: 100%;
 }
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#0079BA, hsl(201, 92%, 62%));
+    background-image: url(/img/fondo.png);
 }
 .cookies{
     font-size: 0.8vmax;
-    margin-left: 5px;
     width: 15%;
-    height: 90px;
+    height: 6vmax;
     background: rgb(4, 61, 119);
     color: rgb(255, 255, 255);
     border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
 }
 .cookies p{
     text-align: center;
 }
-.cookies .botonCookies input[type = "submit"]{
+.cookies .botonCookies input[type = "submit"]{    
     background-color: #25b5f7;
-    width: 39%;
     border: none;
     text-transform: uppercase;/*Para que se convierta a mayusculas*/
     cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
-    margin-left: 6%; 
+    font-size: 0.8vmax;
 }
 .cookies a:hover, a:active{
     color: #25b5f7;
@@ -34,21 +37,27 @@ body{
     color: #25b5f7;
 }
 h1{
+    display: block !important;
     font-size: 90px;
 }
 .saint {
-    float:right;
     height: 300px;
     max-width: 100%;
     padding:1px solid white;
     margin: 0;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
 }
 .saint img{
-    max-width: 100%;
+    max-width: 100%
 }
 .contenedor{
     font-size: 1vmax;
-    margin: 50px auto 0 auto;
+    margin: 3% auto 0 auto;
     max-width: 25%;
     padding: 30px;
     background: rgba(0,0,0, .5);
