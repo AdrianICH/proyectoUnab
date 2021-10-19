@@ -1,0 +1,85 @@
+.cookies{
+    font-size: 0.8vmax;
+    width: 15%;
+    height: 6vmax;
+    background: rgb(4, 61, 119);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.cookies p{
+    text-align: center;
+}
+.cookies .botonCookies input[type = "submit"]{    
+    background-color: #25b5f7;
+    border: none;
+    text-transform: uppercase;/*Para que se convierta a mayusculas*/
+    cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
+    font-size: 0.8vmax;
+}
+.cookies a:hover, a:active{
+    color: #25b5f7;
+    text-decoration: none;
+}
+.cookies a:link, a:visited{
+    color: #25b5f7;
+}
+h1{
+    display: block !important;
+    font-size: 90px;
+}
+.saint {
+    height: 300px;
+    max-width: 100%;
+    padding:1px solid white;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.saint img{
+    max-width: 100%
+}
+.contenedor{
+    font-size: 1vmax;
+    margin: 3% auto 0 auto;
+    max-width: 25%;
+    padding: 30px;
+    background: rgba(0,0,0, .5);
+    border-radius: 10px;
+    z-index: 2;
+}
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #4cc9f0;
+    text-align: center;
+}
+.contenedor .elemento label{
+    color:#fff;
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.contenedor .elemento a{
+    background-color: #f72585;
+    border: none;
+    margin: auto;
+    letter-spacing: 5px;
+    text-transform: uppercase;/*Para que se convierta a mayusculas*/
+    cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
+    padding: 15px; 
+}
