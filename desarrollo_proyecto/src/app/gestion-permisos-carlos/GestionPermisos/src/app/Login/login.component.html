@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel = "stylesheet" href = "/css/estilosIndex.css"/>
-    <title>Inicio SAINT</title> 
-  </head>
-  <body>
+<body>
     
     <header>
         <div class = "cookies">
@@ -32,7 +23,7 @@
         </aside>
     </div>
     <div class = "contenedor">
-            <form id = "forma" name = "forma" method = "POST">
+            <form id = "forma" name = "forma">
                 <div class = "elemento">
                     <label for = "usuario">Usuario</label>
                     <input type = "email" id = "usuario" name = "usuario" required = "true"
@@ -42,10 +33,9 @@
                     <label for = "password">Password</label>
                     <input type = "password" id = "password" name = "password" required = "true">
                 </div>
-                <div class = "elemento">
-                    <input type = "submit" value = "Enviar">
+                <div class = "elemento" >
+                    <a routerLink = '/menuSuperUsuario' target = "_blank"> Enviar</a>
                 </div>
             </form>
     </div>
   </body>
-</html>

@@ -1,11 +1,3 @@
-html{
-    height: 100%;
-}
-body{
-    margin: 0;
-    padding: 0;
-    background:linear-gradient(#0079BA, hsl(201, 92%, 62%))
-}
 .contenedor{
     margin: 50px auto;
     width: 400px;
@@ -33,13 +25,14 @@ body{
     border-bottom: 1px solid #fff;
     margin-bottom: 30px;
 }
-.contenedor .elemento input[type = "submit"]{
+.contenedor .elemento a{
     background-color: #f72585;
     border: none;
     letter-spacing: 5px;
     text-transform: uppercase;/*Para que se convierta a mayusculas*/
     cursor: pointer; /*Esto es para que se coloque la manita cuando nos posicionemos encima*/
     padding: 15px; 
+    text-decoration: none;
 }
 h1{
     font-size: 74px;

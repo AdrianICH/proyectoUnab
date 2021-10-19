@@ -1,14 +1,4 @@
-*{
-    max-width: 100%;
-}
-html{
-    height: 100%;
-}
-body{
-    margin: 0;
-    padding: 0;
-    background:linear-gradient(#0079BA, hsl(201, 92%, 62%));
-}
+
 .titulo{
     display:block;  
 }
