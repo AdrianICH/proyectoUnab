@@ -1,26 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina Principal</title>
-  </head>
-  <body>
-    <h2>Bienvenid@</h2>
+<app-navbar-menu></app-navbar-menu>
+<html>
+  <section class="head">
+    <header>Historia del Scrum</header>
+  </section>
 
-    <nav class="navbar navbar-expand-sm navbar-ligth-bg-ligth">
-      <div class="collapse navbar-collapse" id="opciones">
-        <ul class="navbar">
-          <li class="nav-item">
-            <a [routerLink]="['']" class="nav-link">Principal</a>
-          </li>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 colum1">
+          <p>
+            Este modelo fue identificado y definido por Ikujiro Nonaka y
+            Takeuchi a principios de los 80, al analizar cómo desarrollaban los
+            nuevos productos las principales empresas de manufactura
+            tecnológica: Fuji-Xerox, Canon, Honda, NEC, Epson, Brother, 3M y
+            Hewlett-Packard (Nonaka & Takeuchi, The New New Product Development
+            Game, 1986). En su estudio, Nonaka y Takeuchi compararon la nueva
+            forma de trabajo en equipo, con el avance en formación de melé
+            (scrum en inglés) de los jugadores de Rugby, a raíz de lo cual quedó
+            acuñado el término “scrum” para referirse a ella.
+          </p>
+        </div>
 
-          <li class="nav-item">
-            <a [routerLink]="['registrar']" class="nav-link">Registrar</a>
-          </li>
-        </ul>
+        <div class="col-6 colum2">
+          <p>
+            Aunque esta forma de trabajo surgió en empresas de productos
+            tecnológicos, es apropiada para cualquier tipo de proyecto con
+            requisitos inestables y para los que requieren rapidez y
+            flexibilidad, situaciones frecuentes en el desarrollo de
+            determinados sistemas de software.
+          </p>
+        </div>
       </div>
-    </nav>
-  </body>
+
+      <div class="row">
+        <div class="col-12 colum3">
+          <p>
+            En 1995, Ken Schwaber presentó “Scrum Development Process” en OOPSLA
+            95 (Object-Oriented Programming Systems & Applications
+            conference)(SCRUM Development Process), un marco de reglas para
+            desarrollo de software, basado en los principios de Scrum, y que él
+            había empleado en el desarrollo de Delphi, y Jeff Sutherland en su
+            empresa Easel Corporation (compañía que en los macrojuegos de
+            compras y fusiones, se integraría en VMARK, y luego en Informix y
+            finalmente en Ascential Software Corporation).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer></footer>
 </html>

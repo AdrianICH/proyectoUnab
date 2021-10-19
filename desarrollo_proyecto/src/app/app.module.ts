@@ -12,6 +12,13 @@ import { GestionUsuarioNathaliaComponent } from './gestion-usuario-nathalia/gest
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PaginaPrincipalComponent } from './funci_johann/pagina-principal/pagina-principal.component';
+import { NavbarMenuComponent } from './funci_johann/navbar-menu/navbar-menu.component';
+import { LoginComponent } from './gestion-usuario-nathalia/login/login.component';
+import { InventarioComponent } from './gestion-inventarios-juliana/inventario/inventario.component';
+import { LoginCPComponent } from './gestion-permisos-carlos/login-cp/login-cp.component';
+import { SPUserMenuComponent } from './gestion-permisos-carlos/spuser-menu/spuser-menu.component';
+import { VerificarCorreoComponent } from './gestion-permisos-carlos/verificar-correo/verificar-correo.component';
+import { ConcederPermisosComponent } from './gestion-permisos-carlos/conceder-permisos/conceder-permisos.component';
 
 
 //import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -26,6 +33,13 @@ import { PaginaPrincipalComponent } from './funci_johann/pagina-principal/pagina
     GestionPermisosCarlosComponent,
     GestionUsuarioNathaliaComponent,
     PaginaPrincipalComponent,
+    NavbarMenuComponent,
+    LoginComponent,
+    InventarioComponent,
+    LoginCPComponent,
+    SPUserMenuComponent,
+    VerificarCorreoComponent,
+    ConcederPermisosComponent,
   ],
   imports: [
     //[ NgbModule.forRoot()],  

@@ -1,15 +1,22 @@
-*{
+header, footer{
+    background-color: bisque;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size:xx-large;
     text-align: center;
+}
+
+.container{
+    padding-top: 2rem;
     font-size: large;
+    text-align: justify;
 }
 
-
-button{
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+section{
+    background-color: beige;
 }
 
-ul{
-    list-style-type: none;
+.col-12.colum3{
+    color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
