@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-black">
+      <img src="https://t3.ftcdn.net/jpg/01/08/37/26/360_F_108372613_qcAc1ORtQr8F3Mm48NUHYAESQslhvY5c.jpg" alt="" width="50px" height="50px">
+      <div class="collapse navbar-collapse" id="opciones">
+        <ul class="navbar">
+          <li class="nav-item">
+            <a [routerLink]="['']" class="nav-link">Principal</a>
+          </li>
+
+          <li class="nav-item">
+            <a [routerLink]="['/registrar']" class="nav-link">Registrar</a>
+          </li>
+
+          <li class="nav-item">
+            <a [routerLink]="['/login']" class="nav-link">Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a [routerLink]="['/gestionInv']" class="nav-link">Gestion de inventario</a>
+          </li>
+
+          <li class="nav-item">
+            <a [routerLink]="['/permisosUs']" class="nav-link">Gestion de Permisos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
