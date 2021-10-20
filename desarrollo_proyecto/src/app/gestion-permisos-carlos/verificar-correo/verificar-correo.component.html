@@ -1,0 +1,27 @@
+<body>
+    <header>
+        <h1>Verificar Acceso</h1>
+    </header>
+    <div class = "contenedor">
+            <form id = "forma" name = "forma" method = "POST">
+                <div class = "elemento">
+                    <label for = "usuario">Usuario</label>
+                    <input type = "text" id = "usuario" name = "usuario" required = "true"
+                    placeholder = "saint@gmail.com">
+                </div>
+                <div class = "elemento">
+                    <label for = "password">Password</label>
+                    <input type = "password" id = "password" name = "password">
+                </div>
+                <div class = "elemento">
+                    <a routerLink= '/spuser/conceder' target = "_blank">Enviar</a>
+                </div>
+            </form>
+    </div>
+    <section>
+        <pre>
+Es necesario que Confirme su identidad, 
+por favor vuelva a ingresar su usuario y contraseña
+        </pre>
+    </section>
+  </body>

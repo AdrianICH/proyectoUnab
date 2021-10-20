@@ -1,0 +1,40 @@
+
+.titulo{
+    display:block;  
+}
+.titulo h1{
+    display: inline-block;
+    margin-left: 29%;
+    margin-bottom: 30px;
+    font-size: 55px;
+    text-align: center;     
+    color: white;
+}
+.titulo h2{
+    color:rgb(221, 217, 217);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.titulo img{
+    width: 18%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.navegacion a:link{
+    box-shadow: 1px 0 7px rgba(0, 0, 0, 0.623);
+}
+.navegacion a:link, a:visited{
+    background-color: rgba(123, 104, 238, .5);
+    color:white;
+    padding: 15px 25px;
+    margin: 10px 0 0 17%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /*Para que no se encimen los elementos */
+}
+.navegacion a:hover, a:active{
+    cursor: pointer;
+    background-color: #6A5ACD;
+}
