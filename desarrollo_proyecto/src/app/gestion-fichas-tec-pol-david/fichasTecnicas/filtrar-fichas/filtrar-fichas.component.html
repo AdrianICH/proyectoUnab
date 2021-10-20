@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>filtrar_fichas</title>
-
-    <link rel="stylesheet" type="text/css" href="http://localhost/minticCiclo3/estilo_filtro_fichas.css">
-
+    <title>Registar Fichas</title>
 </head>
-<body>
-    <img src="https://cdn.pixabay.com/photo/2013/07/12/13/55/letter-147563_960_720.png" alt="imagen de sobre"/>
-
-    <center><header>SAINT</header></center>
-    <center><h1>Sistema Administrativo Integrado</h1></center>
+    <body>
+        <img class="logo" src="assets/logo.png" alt="Logotipo Saint"/>
     <hr>
+    <br>
+    <br>
+    <h1>FILTRAR FICHAS TECNICAS</h1>
 
     <table>    
     <tr>
@@ -88,7 +85,7 @@
 
     
     <div>
-        <img class="producto" src="https://cdn-icons-png.flaticon.com/512/607/607928.png" alt="imagen de producto"/>
+        <img class="producto" src="assets/imagenes-fichas/producto.png" alt="foto del producto"/>
     
         <p class="info" align="center">
             <b>
@@ -103,27 +100,23 @@
         </p>
     </div>
 
-       <div class="cuidados_lavado">
-            <label class="lavar">
-            <input type="checkbox" name="checkbox">
-            <img src="no-lavar.png"/></label>      
+     
             
-            <label class="planchar">
-            <input type="checkbox" name="checkbox2">
-            <img src="no-planchar.png"/></label>
+            <div class="lavar"><img src="assets/imagenes-fichas/no-lavar.png" width="64"/></div>  
             
-            <label class="disolvente">
-            <input type="checkbox" name="checkbox2">
-            <img src="disolvente.png"/></label>
+            
+            <div class="planchar"><img src="assets/imagenes-fichas/no-planchar.png" width="64"/></div>
+            
+            
+            <div class="disolvente"><img src="assets/imagenes-fichas/disolvente.png" width="64"/></div>
 
-            <label class="escurrir">
-            <input type="checkbox" name="checkbox2">
-            <img src="no-escurrir.png"/></label>
-        </div>
+            
+            <div class="escurrir"><img src="assets/imagenes-fichas/no-escurrir.png" width="64"/></div>
+        
         
     
         
-    <a class="btvolver2" href="http://localhost/minticCiclo3/menu_fichas_tecnicas.html">Volver</a>
+    <a class="btvolver2" [routerLink]="['']">Volver</a>
     
 </body>
 </html>

@@ -1,0 +1,122 @@
+.logo{
+    margin: auto;
+    display: block;  
+}
+
+h1{
+    margin-left:  2em;
+    font-family: cursive;
+    font-size: 4em;
+    color: rgb(136, 183, 221);
+}
+
+table{
+    position: absolute;  
+    background-color: rgb(136, 183, 221);  
+    padding: px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 1.7em;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    }      
+
+td{
+    padding: 5px 8px;
+}
+
+.nombre_filtro{
+    width: 22em;
+    display: block;
+    font-family: cursive;
+    border-radius: 10px;}
+
+.material_filtro{
+    width: 22em;
+    display: block; 
+    font-family: cursive;
+    border-radius: 10px;} 
+    
+.color_filtro{
+    width: 22em;
+    display: block;
+    font-family: cursive;
+    border-radius: 10px;} 
+
+.fecha_filtro{
+    width: 22em;
+    display: block;
+    font-family: cursive;
+    border-radius: 10px;} 
+
+.talla_filtro{
+    width: 22em;
+    display: block;
+    font-family: cursive;
+    border-radius: 10px;}
+
+.producto{
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    margin: 4em 62em;
+}
+
+.info{
+    position: absolute;
+    margin-top: 2.5em;
+    margin-left: 47em;    
+    background-color: rgb(136, 183, 221);
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 2em;
+    line-height: 40px;
+    color: white;
+}
+
+.lavar
+{   float:left;
+    width: 64px; 
+    height: 64px;
+    margin-top:25em;    
+    margin-left: 65em; 
+}
+
+.planchar
+{   float: left;
+    width: 64px; 
+    height: 64px;
+    margin-top:25em;
+    margin-left: 2em;    
+}
+
+.disolvente
+{   float:left;
+    width: 64px; 
+    height: 64px;
+    margin-top:33em;
+    margin-left: -15em;    
+}
+
+.escurrir
+{   float: left;
+    width: 64px; 
+    height: 64px;
+    margin-top:33em;
+    margin-left: -6em;    
+}
+
+.btvolver2{    
+    position: absolute;
+    padding: 0.5em;
+    margin-top: 27.2em;
+    margin-left: 19.8em;
+    background-color:rgb(199, 212, 212);    
+    color: black;
+    border-radius: 10px;
+    font-family: cursive; 
+    font-size: 2em;       
+    text-decoration: none;
+}
+

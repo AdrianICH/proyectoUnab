@@ -1,0 +1,66 @@
+.logo{
+    margin: auto;
+    display: block;  
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 4em;
+    color: rgb(136, 183, 221);
+}
+
+.bt1{
+    padding: 10px 20px;
+    background-color: rgb(136, 183, 221);
+    border-radius: 10px;
+    margin-left: 6em;
+    color: white;
+    font-family: cursive;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.bt2{
+    padding: 10px 15px;
+    background-color: rgb(136, 183, 221);
+    border-radius: 10px;
+    margin-left: 7em;
+    color: white;
+    font-family: cursive;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.bt3{
+    padding: 10px 24px;
+    background-color: rgb(136, 183, 221);
+    border-radius: 10px;
+    margin-left: 7em;
+    color: white;
+    font-family: cursive;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.bt4{
+    padding: 10px 45px;
+    background-color: rgb(136, 183, 221);
+    border-radius: 10px;
+    margin-left: 6em;
+    color: white;
+    font-family: cursive;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.btvolver{    
+    padding: 0.5em;
+    background-color:rgb(199, 212, 212);    
+    color: black;
+    border-radius: 10px;
+    margin: 60em;
+    font-family: cursive; 
+    font-size: 2em;       
+    text-decoration: none;
+}

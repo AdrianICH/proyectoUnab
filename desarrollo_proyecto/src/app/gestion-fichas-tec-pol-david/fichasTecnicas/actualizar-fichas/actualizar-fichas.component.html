@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registar Fichas</title>
+</head>
+    <body>
+        <img class="logo" src="assets/logo.png" alt="Logotipo Saint"/>
+    <hr>
+    <br>
+    <br>
+    <h1>ACTUALIZAR FICHAS TECNICAS</h1>
+
+        <form name="Nueva_ficha"  action="">
+        
+            <table class="tbl_left">
+                <tr>
+                    <td><b>Nombre del producto:</b></td>
+                    <td><input type="text" name="Nombre del producto" size="16.5em"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Ref.:</b></td>            
+                    <td><input type="text" name="Ref." size="16.5em"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Material:</b>
+                    <select class="material">
+                        <option selected="selected">Seleccionar...</option>
+                        <option value="1">Perchado</option>
+                        <option value="2">Licra</option>
+                        <option value="3">Algodon</option>
+                        <option value="4">Burda</option>
+                        <option value="5">Jean</option>
+                    </select></td>  
+                </tr>
+
+                <tr>
+                    <td><b>Fecha de elaboración:</b></td>            
+                    <td><input class="fecha" type="date" name="Fecha de elaboración"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Talla:</b>
+                        <select class="talla">
+                            <option selected="selected">Seleccionar...</option>
+                            <option value="1">XXS</option>
+                            <option value="2">XS</option>
+                            <option value="3">S</option>
+                            <option value="4">M</option>
+                            <option value="5">L</option>
+                            <option value="6">XL</option>
+                            <option value="7">XXL</option>
+                        </select></td>  
+                </tr>            
+            </table>
+
+            <table class="tbl_right">
+                <tr>
+                    <td><b>Color:</b></td>
+                    <td><input type="text" name="Color" size="16.5em"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Peso:</b></td>            
+                    <td><input type="text" name="Peso" size="16.5em"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Cuidados de la prenda/lavado:</b>         
+                        <label class="lavar">
+                        <input type="checkbox" name="lavar">
+                        <img src="assets/imagenes-fichas/no-lavar.png"/></label>      
+                        
+                        <label class="planchar">
+                        <input type="checkbox" name="no_planchar">
+                        <img src="assets/imagenes-fichas/no-planchar.png"/></label>
+                        
+                        <label class="disolvente">
+                        <input type="checkbox" name="disolvente">
+                        <img src="assets/imagenes-fichas/disolvente.png"/></label>
+
+                        <label class="escurrir">
+                        <input type="checkbox" name="no_escurrir">
+                        <img src="assets/imagenes-fichas/no-escurrir.png"/></label>
+
+                        <label class="secado">
+                        <input type="checkbox" name="no_secadora">
+                        <img src="assets/imagenes-fichas/no-secar-en-secadora.png"/></label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><b>Precio:</b></td>            
+                    <td><input type="text" name="Precio" size="16.5em"></td>
+                </tr>           
+            </table>
+
+            <table class="referencia">
+                <tr>
+                    <td><b>Buscar Referencia:</b></td>            
+                    <td><input type="text" name="Referencia" size="16.5em"></td>
+                </tr>
+            </table>
+
+            <input class="input_actualizar" type="submit" value="Actualizar" name="Enviar">
+            <a class="btvolver2" [routerLink]="['']">Volver</a>
+
+        </form>  
+    </body>
+</html> 
