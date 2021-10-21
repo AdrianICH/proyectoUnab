@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <body>
+    <header>
+      <div class="titulo" translate="no">
+        <img src="assets/logo.png" />
+        <h4>FICHAS TÉCNICAS</h4>
+        <hr />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col">
+          <a class="bt1" [routerLink]="['registrar']">Registrar ficha</a>
+        </div>
+        <div class="col">
+          <a class="bt2" [routerLink]="['actualizar']">Actualizar ficha</a>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <a class="bt3" [routerLink]="['eliminar']">Eliminar ficha</a>
+          </div>
+          <div class="col">
+            <a class="bt4" [routerLink]="['filtrar']">Listar ficha</a>
+          </div>
+        </div>
+      </div>
+      <a class="btvolver" [routerLink]="['/menuUsuario']">Volver</a>
+    </div>
+
+    
+    <!--Aqui poner [routerLink] de menu principal-->
+  </body>
+</html>

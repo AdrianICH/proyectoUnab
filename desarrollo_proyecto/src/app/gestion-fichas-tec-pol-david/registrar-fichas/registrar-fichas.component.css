@@ -1,0 +1,160 @@
+.logo{
+    margin: auto;
+    display: block;  
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 4em;
+    color: rgb(136, 183, 221);
+}
+
+.referencia{
+    margin: -17.5em 58em;
+}
+
+.tbl_left{
+    white-space:nowrap;
+    margin:2.5em 9em;
+    font-family: cursive; color: rgb(6, 6, 61);
+    font-size: 2em;
+    
+    background-color: rgb(136, 183, 221);
+    border-radius: 10px;
+}
+
+td{
+    padding: 5px 8px;
+}
+
+        .material{
+            position: absolute;
+            margin-left: 7em;
+            width: 12.6em;
+        }
+
+        .fecha{    
+            margin-left: 0.04em;
+            width: 12.6em;
+        }
+
+        .talla{
+            position:absolute;
+            margin-left: 8.7em;
+            width: 12.6em;
+        }
+
+
+.tbl_right{    
+    table-layout:fixed;
+    width: 540px;
+    white-space:nowrap;    
+    position:relative;  
+    margin: -13.2em 37em;
+    font-family: cursive; color: rgb(6, 6, 61);
+    font-size: 2em;
+    background-color: rgb(136, 183, 221);    
+    border-radius: 10px;  
+}
+
+        .lavar input {display:none;}
+        .lavar img 
+        {   margin: 0em 0.5em;
+            width: 30px;
+            height: 30px;
+            border: 3px solid transparent;
+            padding:inherit;
+        }
+        .lavar input:checked+img 
+        {   border-color: white;
+            border-radius: 7px;	
+        }
+
+        .planchar input {display:none;}
+        .planchar img 
+        {   margin: 0em 0em;
+            width: 30px;
+            height: 30px;
+            border: 3px solid transparent;
+            padding:inherit;	
+        }
+        .planchar input:checked+img 
+        {   border-color: white;
+            border-radius: 7px;
+        }
+
+        .disolvente input {display:none;}
+        .disolvente img 
+        {   margin: 0em 0.5em;
+            width: 30px;
+            height: 30px;
+            border: 3px solid transparent;
+            padding:inherit;	
+        }
+        .disolvente input:checked+img 
+        {   border-color: white;
+            border-radius: 7px;
+        }
+
+        .escurrir input {display:none;}
+        .escurrir img 
+        {   margin: 0em 0em;
+            width: 30px;
+            height: 30px;
+            border: 3px solid transparent;
+            padding:inherit;	
+        }
+        .escurrir input:checked+img 
+        {   border-color: white;
+            border-radius: 7px;
+        }
+
+        .secado input {display:none;}
+        .secado img 
+        {   margin: 0em 0.5em;
+            width: 30px;
+            height: 30px;
+            border: 3px solid transparent;
+            padding:inherit;	
+        }
+        .secado input:checked+img 
+        {   border-color: white;
+            border-radius: 7px;
+        }
+
+.input_registrar{
+    padding: 0.5em;
+    background-color:rgb(199, 212, 212);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-block-start: 17.2em;
+    margin-inline-start: 52.6em;
+    font-family: cursive; 
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.input_reg{
+    padding: 0.2em;
+    background-color:rgb(199, 212, 212);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 37.1em 60em;
+    font-family: cursive; 
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.btvolver2{    
+    padding: 0.5em;
+    margin: 2em;
+    background-color:rgb(199, 212, 212);    
+    color: black;
+    border-radius: 10px;
+    font-family: cursive; 
+    font-size: 2em;       
+    text-decoration: none;
+}

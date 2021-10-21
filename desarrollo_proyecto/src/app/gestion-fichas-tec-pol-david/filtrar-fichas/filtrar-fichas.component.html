@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registar Fichas</title>
+</head>
+    <body>
+        <img class="logo" src="assets/logo.png" alt="Logotipo Saint"/>
+    <hr>
+    <br>
+    <br>
+    <h1>FILTRAR FICHAS TECNICAS</h1>
+
+    <table>    
+    <tr>
+        <td><b>Nombre:</b>
+            <select class="nombre_filtro" multiple size="4">
+                <option selected="selected">Seleccionar...</option>
+                <option value="1">Chaqueta</option>
+                <option value="2">Hoodie</option>
+                <option value="3">Jogger</option>
+                <option value="4">Camisa</option>
+                <option value="5">Pant/cargo</option>
+            </select></td>  
+    </tr>
+
+    <tr>
+        <td><b>Material:</b>
+            <select class="material_filtro" multiple size="4">
+                <option selected="selected">Seleccionar...</option>
+                <option value="1">Perchado</option>
+                <option value="2">Licra</option>
+                <option value="3">Algodon</option>
+                <option value="4">Burda</option>
+                <option value="5">Jean</option>
+            </select></td>  
+    </tr>
+
+    <tr>
+        <td><b>color:</b>
+            <select class="color_filtro" multiple size="4">
+                <option selected="selected">Seleccionar...</option>
+                <option value="1">Azul</option>
+                <option value="2">Rojo</option>
+                <option value="3">Verde</option>
+                <option value="4">Marron</option>
+                <option value="5">Jean</option>
+            </select></td> 
+    </tr>
+
+    <tr>
+        <td><b>Fecha:</b>
+            <select class="fecha_filtro" multiple size="4">
+                <option selected="selected">Seleccionar...</option>
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Junio</option>
+                <option value="1">Julio</option>
+                <option value="2">Agosto</option>
+                <option value="3">Septiembre</option>
+                <option value="4">Octubre</option>
+                <option value="5">Noviembre</option>
+                <option value="5">Diciembre</option>
+            </select></td> 
+    </tr>
+
+    <tr>
+        <td><b>Talla:</b>
+            <select class="talla_filtro" multiple size="4" >
+                <option selected="selected">Seleccionar...</option>
+                <option value="1">XXS</option>
+                <option value="2">XS</option>
+                <option value="3">S</option>
+                <option value="4">M</option>
+                <option value="5">L</option>
+                <option value="6">XL</option>
+                <option value="7">XXL</option>
+            </select></td>  
+    </tr>            
+    </table>  
+
+    
+    <div>
+        <img class="producto" src="assets/imagenes-fichas/producto.png" alt="foto del producto"/>
+    
+        <p class="info" align="center">
+            <b>
+            Nombre: Hoodie <br />
+            Material: Perchado<br />
+            Fecha de elaboracion: 10/02/2021<br />
+            Talla: XXL<br />
+            color: Azul<br />
+            Peso: 800g<br />
+            Precio: $60.000
+            </b>
+        </p>
+    </div>
+
+     
+            
+            <div class="lavar"><img src="assets/imagenes-fichas/no-lavar.png" width="64"/></div>  
+            
+            
+            <div class="planchar"><img src="assets/imagenes-fichas/no-planchar.png" width="64"/></div>
+            
+            
+            <div class="disolvente"><img src="assets/imagenes-fichas/disolvente.png" width="64"/></div>
+
+            
+            <div class="escurrir"><img src="assets/imagenes-fichas/no-escurrir.png" width="64"/></div>
+        
+        
+    
+        
+    <a class="btvolver2" [routerLink]="['/GestionarFichas']">Volver</a>
+    
+</body>
+</html>
