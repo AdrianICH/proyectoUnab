@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DefaultCmpnntComponent } from './componente_ejemplo/default-cmpnnt/default-cmpnnt.component';
 import { RegistrarUsuariosComponent } from './funci_johann/registrar-usuarios/registrar-usuarios.component';
-import { GestionFichasTecPolDavidComponent } from './gestion-fichas-tec-pol-david/gestion-fichas-tec-pol-david.component';
+
 import { GestionInventariosJulianaComponent } from './gestion-inventarios-juliana/gestion-inventarios-juliana.component';
 import { GestionPermisosCarlosComponent } from './gestion-permisos-carlos/gestion-permisos-carlos.component';
 import { GestionUsuarioNathaliaComponent } from './gestion-usuario-nathalia/gestion-usuario-nathalia.component';
@@ -19,6 +19,12 @@ import { LoginCPComponent } from './gestion-permisos-carlos/login-cp/login-cp.co
 import { SPUserMenuComponent } from './gestion-permisos-carlos/spuser-menu/spuser-menu.component';
 import { VerificarCorreoComponent } from './gestion-permisos-carlos/verificar-correo/verificar-correo.component';
 import { ConcederPermisosComponent } from './gestion-permisos-carlos/conceder-permisos/conceder-permisos.component';
+import { MenuUsuarioComponent } from './gestion-usuario-nathalia/menu-usuario/menu-usuario.component';
+import { MenuPrincipalComponent } from './gestion-fichas-tec-pol-david/menu-principal/menu-principal.component';
+import { RegistrarFichasComponent } from './gestion-fichas-tec-pol-david/registrar-fichas/registrar-fichas.component';
+import { FiltrarFichasComponent } from './gestion-fichas-tec-pol-david/filtrar-fichas/filtrar-fichas.component';
+import { EliminarFichasComponent } from './gestion-fichas-tec-pol-david/eliminar-fichas/eliminar-fichas.component';
+import { ActualizarFichasComponent } from './gestion-fichas-tec-pol-david/actualizar-fichas/actualizar-fichas.component';
 
 
 //import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -28,7 +34,6 @@ import { ConcederPermisosComponent } from './gestion-permisos-carlos/conceder-pe
     AppComponent,
     DefaultCmpnntComponent,
     RegistrarUsuariosComponent,
-    GestionFichasTecPolDavidComponent,
     GestionInventariosJulianaComponent,
     GestionPermisosCarlosComponent,
     GestionUsuarioNathaliaComponent,
@@ -40,6 +45,12 @@ import { ConcederPermisosComponent } from './gestion-permisos-carlos/conceder-pe
     SPUserMenuComponent,
     VerificarCorreoComponent,
     ConcederPermisosComponent,
+    MenuUsuarioComponent,
+    MenuPrincipalComponent,
+    RegistrarFichasComponent,
+    FiltrarFichasComponent,
+    EliminarFichasComponent,
+    ActualizarFichasComponent,
   ],
   imports: [
     //[ NgbModule.forRoot()],  
