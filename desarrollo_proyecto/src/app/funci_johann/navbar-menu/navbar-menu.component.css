@@ -18,3 +18,7 @@ ul{
     list-style-type: none;
     margin-bottom: 0ch;
 }
+
+.navbar{
+    background-color:bisque;
+}
